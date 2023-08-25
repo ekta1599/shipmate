@@ -72,7 +72,7 @@ label {
   @apply font-semibold text-sm leading-6 cursor-pointer;
 }
 
-.wave {
+/* .wave {
   position: relative;
   left: 0;
   width: 200%;
@@ -125,4 +125,4 @@ label {
   100% {
     transform: translateX(-75%) translateZ(0) scaleY(1);
   }
-}
+} */
