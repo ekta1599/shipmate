@@ -36,7 +36,6 @@ module.exports = {
         body: "#535353",
         primary: "#6F57E9",
       },
-
       spacing: {
         0.75: "0.1875rem",
         3.25: "0.8125rem",

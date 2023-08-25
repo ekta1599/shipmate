@@ -126,7 +126,7 @@ export default function ShipmentDetails() {
               </div>
             </div>
           </section>
-          <div className="px-4 py-7 mb-5 bg-white shadow-sm rounded-[14px]">
+          <div className="px-4 py-7 mb-5 bg-white shadow-main rounded-[14px]">
             <form action="#" className="lg:flex items-center">
               <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6 lg:divide-x-[1px] lg:divide-gray-200 lg:dark:divide-gray-700">
                 <div className="filter-search-form relative">
@@ -428,13 +428,13 @@ export default function ShipmentDetails() {
                 {/* Product grid */}
                 <div className="lg:col-span-3">
                   <Tab.Group>
-                    <Tab.List className="flex space-x-1 overflow-auto mb-9 rounded-xl bg-[#EBE8FF] shadow-sm">
+                    <Tab.List className="flex space-x-1 overflow-auto mb-9 rounded-xl bg-[#EBE8FF] shadow-main">
                       <Tab
                         className={({ selected }) =>
                           classNames(
                             "w-full rounded-lg py-3 text-sm font-bold leading-5 text-[#868686] focus:outline-none",
                             selected
-                              ? "bg-white shadow-sm text-[#9747FF]"
+                              ? "bg-white shadow-main text-[#9747FF]"
                               : "text-[#868686] hover:bg-white/[0.12] "
                           )
                         }
@@ -446,7 +446,7 @@ export default function ShipmentDetails() {
                           classNames(
                             "w-full rounded-lg py-3 text-sm font-bold leading-5 text-[#868686] focus:outline-none",
                             selected
-                              ? "bg-white shadow-sm text-[#9747FF]"
+                              ? "bg-white shadow-main text-[#9747FF]"
                               : "text-[#868686] hover:bg-white/[0.12] "
                           )
                         }
@@ -458,7 +458,7 @@ export default function ShipmentDetails() {
                           classNames(
                             "w-full rounded-lg py-3 text-sm font-bold leading-5 text-[#868686] focus:outline-none",
                             selected
-                              ? "bg-white shadow-sm text-[#9747FF]"
+                              ? "bg-white shadow-main text-[#9747FF]"
                               : "text-[#868686] hover:bg-white/[0.12] "
                           )
                         }
@@ -468,7 +468,7 @@ export default function ShipmentDetails() {
                     </Tab.List>
                     <Tab.Panels className="mt-2">
                       <Tab.Panel>
-                        <div className="py-[18px] px-7 rounded-[14px] bg-white shadow-sm flex gap-3 justify-between">
+                        <div className="py-[18px] px-7 rounded-[14px] bg-white shadow-main flex gap-3 justify-between">
                           <div>
                             <div className="flex items-center gap-6">
                               <button className="btn bg-[#AFFFAD] rounded-xl px-3 h-8 text-sm font-normal text-black flex gap-2 items-center">
@@ -527,7 +527,7 @@ export default function ShipmentDetails() {
                         </div>
                       </Tab.Panel>
                       <Tab.Panel>
-                        <div className="py-[18px] px-7 rounded-[14px] bg-white shadow-sm flex gap-3 justify-between">
+                        <div className="py-[18px] px-7 rounded-[14px] bg-white shadow-main flex gap-3 justify-between">
                           <div>
                             <div className="flex items-center gap-6">
                               <button className="btn bg-[#AFFFAD] rounded-xl px-3 h-8 text-sm font-normal text-black flex gap-2 items-center">
@@ -586,7 +586,7 @@ export default function ShipmentDetails() {
                         </div>
                       </Tab.Panel>
                       <Tab.Panel>
-                        <div className="py-[18px] px-7 rounded-[14px] bg-white shadow-sm flex gap-3 justify-between">
+                        <div className="py-[18px] px-7 rounded-[14px] bg-white shadow-main flex gap-3 justify-between">
                           <div>
                             <div className="flex items-center gap-6">
                               <button className="btn bg-[#AFFFAD] rounded-xl px-3 h-8 text-sm font-normal text-black flex gap-2 items-center">

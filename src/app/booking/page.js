@@ -66,7 +66,7 @@ export default function Booking() {
         <section>
           <div className="lg:flex gap-8">
             <div className="w-full lg:w-[calc(100%-380px)]">
-              <div className="shadow-sm py-8 px-6 bg-white mb-[10px] rounded-[14px]">
+              <div className="shadow-main py-8 px-6 bg-white mb-[10px] rounded-[14px]">
                 <h4 className="font-bold text-black mb-7 pb-14">
                   Booking summary
                 </h4>
@@ -97,7 +97,7 @@ export default function Booking() {
                 </div>
               </div>
               <div className="md:flex items-center gap-[10px]">
-                <div className="shadow-sm py-5 px-6 bg-white mb-[10px] rounded-[14px] flex items-center flex-col md:w-max">
+                <div className="shadow-main py-5 px-6 bg-white mb-[10px] rounded-[14px] flex items-center flex-col md:w-max">
                   <p className="text-xl font-semibold mb-2">
                     Total Weight/Volume
                   </p>
@@ -106,7 +106,7 @@ export default function Booking() {
                     114.21KG
                   </p>
                 </div>
-                <div className="shadow-sm py-5 px-6 bg-white mb-[10px] rounded-[14px] md:w-[calc(100%-260px)]">
+                <div className="shadow-main py-5 px-6 bg-white mb-[10px] rounded-[14px] md:w-[calc(100%-260px)]">
                   <p className="text-xl font-semibold mb-2">Load</p>
                   <div className="flex justify-center">
                     <h4 className="text-black font-bold mt-4">1X</h4>
@@ -123,14 +123,14 @@ export default function Booking() {
                 </div>
               </div>
               <div className="flex items-center gap-[10px]">
-                <div className="shadow-sm py-5 px-6 bg-white mb-[10px] rounded-[14px] flex flex-col w-full">
+                <div className="shadow-main py-5 px-6 bg-white mb-[10px] rounded-[14px] flex flex-col w-full">
                   <p className="text-xl font-semibold mb-8">
                     <span className="font-normal">Seller: </span>Primetime
                     Worldwide
                   </p>
                   <img src={Image1.src} alt="" className="mx-auto h-10" />
                 </div>
-                <div className="shadow-sm py-5 px-6 bg-white mb-[10px] rounded-[14px] flex flex-col w-full">
+                <div className="shadow-main py-5 px-6 bg-white mb-[10px] rounded-[14px] flex flex-col w-full">
                   <p className="text-xl font-semibold mb-8">
                     <span className="font-normal">Insurance: </span>Xcover.com
                   </p>
@@ -139,7 +139,7 @@ export default function Booking() {
               </div>
             </div>
             <div className="w-full lg:w-[380px] lg:min-w-[380px]">
-              <div className="shadow-sm py-9 pl-9 pr-12 bg-white mb-[10px] rounded-[14px]">
+              <div className="shadow-main py-9 pl-9 pr-12 bg-white mb-[10px] rounded-[14px]">
                 <div className="flex items-center gap-5 mb-9">
                   <h4 className="text-black font-bold">Price details</h4>
                   <div className="flex items-center w-max gap-2 px-3 py-1 rounded-full bg-[#E5E6E6] text-xs font-normal text-black">

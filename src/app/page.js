@@ -40,7 +40,7 @@ export default function Home() {
               logistics providers, all on one platform.
             </div>
           </div>
-          <div className="px-4 py-7 bg-white shadow-sm rounded-[14px]">
+          <div className="px-4 py-7 bg-white shadow-main rounded-[14px]">
             <form action="#" className="lg:flex items-center">
               <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6 lg:divide-x-[1px] lg:divide-gray-200 lg:dark:divide-gray-700">
                 <div className="filter-search-form relative">
@@ -103,7 +103,7 @@ export default function Home() {
           <div className="pt-24 pb-10">
             <h1 className="mb-2 text-center">Services</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="rounded-lg shadow-sm dark:shadow-gray-800 px-6 py-7">
+              <div className="rounded-lg shadow-main dark:shadow-gray-800 px-6 py-7">
                 <div className="flex items-center pb-5 border-b border-[#9E9E9E] ">
                   <FreightServices />
                   <h5 className="ps-4 font-medium text-black">
@@ -116,7 +116,7 @@ export default function Home() {
                   and discover new contitnents, We are with you, door-to-door.
                 </p>
               </div>
-              <div className="rounded-lg shadow-sm dark:shadow-gray-800 px-6 py-7">
+              <div className="rounded-lg shadow-main dark:shadow-gray-800 px-6 py-7">
                 <div className="flex items-center pb-5 border-b border-[#9E9E9E] ">
                   <BusinessServices />
                   <h5 className="ps-4 font-medium text-black">
@@ -130,7 +130,7 @@ export default function Home() {
                   next level.
                 </p>
               </div>
-              <div className="rounded-lg shadow-sm dark:shadow-gray-800 px-6 py-7">
+              <div className="rounded-lg shadow-main dark:shadow-gray-800 px-6 py-7">
                 <div className="flex items-center pb-5 border-b border-[#9E9E9E] ">
                   <ShippingLogistics />
                   <h5 className="ps-4 font-medium text-black">
@@ -143,7 +143,7 @@ export default function Home() {
                   needs. Agile solutions to handle all your supply chain needs.
                 </p>
               </div>
-              <div className="rounded-lg shadow-sm dark:shadow-gray-800 px-6 py-7">
+              <div className="rounded-lg shadow-main dark:shadow-gray-800 px-6 py-7">
                 <div className="flex items-center pb-5 border-b border-[#9E9E9E] ">
                   <SupportIcon />
                   <h5 className="ps-4 font-medium text-black">24/7 Support</h5>
