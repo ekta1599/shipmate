@@ -46,12 +46,6 @@ module.exports = {
         3.25: "0.8125rem",
       },
 
-      maxWidth: ({ theme, breakpoints }) => ({
-        1200: "71.25rem",
-        992: "60rem",
-        768: "45rem",
-      }),
-
       zIndex: {
         1: "1",
         2: "2",
