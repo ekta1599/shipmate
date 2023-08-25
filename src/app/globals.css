@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* // _general.scss */
+
+/*********************************/
+/*             General            */
+/*===============================*/
+
+body {
+  @apply m-0 text-base leading-normal font-normal font-Figtree text-body;
+}
+
+p {
+  @apply leading-relaxed mb-4;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+h1,
+h2,
+h3,
+h4 {
+  @apply font-semibold leading-tight font-Figtree text-heading dark:text-white;
+}
+
+::selection {
+  @apply bg-primary text-white;
+}
+
+h1,
+.h1 {
+  @apply text-[42px];
+}
+h2,
+.h2 {
+  @apply text-4xl;
+}
+h3,
+.h3 {
+  @apply text-3xl;
+}
+h4,
+.h4 {
+  @apply text-2xl;
+}
+h5,
+.h5 {
+  @apply text-xl;
+}
+h6,
+.h6 {
+  @apply text-lg;
+}
+
+/********************/
+/*     Buttons      */
+/*==================*/
+
+.btn {
+  @apply py-2 h-12 px-3 sm:px-7 md:px-12 inline-block rounded-xl font-semibold font-Figtree border-2 border-transparent align-middle relative transition duration-500 ease-in-out text-base text-center;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary/90 focus:bg-primary/90 text-white;
+}
+
+.btn-outline-primary {
+  @apply bg-transparent hover:bg-primary/90 border-primary focus:bg-primary/90 text-primary hover:text-white focus:text-white;
+}
+
+/*********************************/
+/*             Form Control           */
+/*===============================*/
+.form-input {
+  @apply w-full py-3 px-4 border-2 text-base font-normal leading-6 border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none bg-transparent transition duration-500 ease-in-out;
+}
+
+label {
+  @apply font-semibold text-sm leading-6 cursor-pointer;
+}
+
+/*********************************/
+/*       Wave Animation          */
+/*===============================*/
+
+.wave {
+  position: relative;
+  left: 0;
+  width: 200%;
+  margin-top: 100px;
+  height: 200px;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
+}
+
+.waveWrapper {
+  overflow: hidden;
+  width: 100vw;
+  position: relative;
+  z-index: 99999;
+  left: 0;
+  right: 0;
+}
+
+.waveBottom {
+  animation: move_wave 3s linear infinite;
+}
+.waveBottom img{
+  width: 100%;
+}
+.waveBottom2 {
+  animation: move_wave2 3s linear infinite;
+  position: absolute;
+  animation-delay: 3s;
+}
+
+@keyframes move_wave {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+@keyframes move_wave2 {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-50%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-75%) translateZ(0) scaleY(1);
+  }
+}
