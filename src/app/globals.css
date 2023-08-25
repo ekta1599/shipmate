@@ -4,18 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-/* // _general.scss */
-
-/*********************************/
-/*             General            */
-/*===============================*/
-
 body {
   @apply m-0 text-base leading-normal font-normal font-Figtree text-body;
 }
@@ -64,10 +52,6 @@ h6,
   @apply text-lg;
 }
 
-/********************/
-/*     Buttons      */
-/*==================*/
-
 .btn {
   @apply py-2 h-12 px-3 sm:px-7 md:px-12 inline-block rounded-xl font-semibold font-Figtree border-2 border-transparent align-middle relative transition duration-500 ease-in-out text-base text-center;
 }
@@ -80,9 +64,6 @@ h6,
   @apply bg-transparent hover:bg-primary/90 border-primary focus:bg-primary/90 text-primary hover:text-white focus:text-white;
 }
 
-/*********************************/
-/*             Form Control           */
-/*===============================*/
 .form-input {
   @apply w-full py-3 px-4 border-2 text-base font-normal leading-6 border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-md outline-none bg-transparent transition duration-500 ease-in-out;
 }
@@ -90,10 +71,6 @@ h6,
 label {
   @apply font-semibold text-sm leading-6 cursor-pointer;
 }
-
-/*********************************/
-/*       Wave Animation          */
-/*===============================*/
 
 .wave {
   position: relative;
