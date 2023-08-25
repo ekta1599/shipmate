@@ -37,10 +37,6 @@ module.exports = {
         primary: "#6F57E9",
       },
 
-      boxShadow: {
-        main: "0px 0px 0px 0px rgba(21, 31, 72, 0.10), 19px 34px 84px 0px rgba(21, 31, 72, 0.10), 74px 134px 153px 0px rgba(21, 31, 72, 0.09), 167px 302px 207px 0px rgba(21, 31, 72, 0.05), 296px 536px 245px 0px rgba(21, 31, 72, 0.01), 463px 838px 268px 0px rgba(21, 31, 72, 0.00);",
-      },
-
       spacing: {
         0.75: "0.1875rem",
         3.25: "0.8125rem",
