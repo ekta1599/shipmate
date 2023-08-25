@@ -128,5 +128,11 @@ label {
 }
 
 .shadow-main {
-  box-shadow: 0px 228px 64px 0px rgba(0, 0, 0, 0);
+  box-shadow:
+    0px 0px 0px 0px rgba(21, 31, 72, 0.1),
+    19px 34px 84px 0px rgba(21, 31, 72, 0.1),
+    74px 134px 153px 0px rgba(21, 31, 72, 0.09),
+    167px 302px 207px 0px rgba(21, 31, 72, 0.05),
+    296px 536px 245px 0px rgba(21, 31, 72, 0.01),
+    463px 838px 268px 0px rgba(21, 31, 72, 0);
 }
