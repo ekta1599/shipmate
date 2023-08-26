@@ -23,7 +23,9 @@ export default function Home() {
           </div>
 
           <div className="flex gap-3 items-center ml-auto lg:space-x-7">
-            <button className="btn btn-primary">Login</button>
+            <Link href="/shipment-details">
+              <button className="btn btn-primary">Login</button>
+            </Link>
             <button className="btn btn-primary btn-outline-primary">
               Learn more
             </button>
@@ -93,10 +95,12 @@ export default function Home() {
               </div>
               <div className="flex items-center mt-5 lg:mt-0">
                 <span className="lg:border-l-[1px] h-7 pl-3 border-gray-200"></span>
-                <button className="btn gap-3 btn-primary h-9 w-full lg:w-9 p-0 flex justify-center items-center rounded-lg">
-                  <span className="lg:hidden">Search</span>
-                  <RightArrow />
-                </button>
+                <Link href="/shipment-details" className="w-full lg:w-max">
+                  <button className="btn gap-3 btn-primary h-9 w-full lg:w-9 p-0 flex justify-center items-center rounded-lg">
+                    <span className="lg:hidden">Search</span>
+                    <RightArrow />
+                  </button>
+                </Link>
               </div>
             </form>
           </div>

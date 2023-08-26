@@ -500,7 +500,9 @@ export default function ShipmentDetails() {
                               </div>
                             </div>
                             <div className="flex items-center gap-3 mt-6">
-                              <p className="mb-0 text-sm text-[#808080]">Primetime Worldwide</p>
+                              <p className="mb-0 text-sm text-[#808080]">
+                                Primetime Worldwide
+                              </p>
                               <div className="flex items-center gap-1">
                                 <StarFill />
                                 <StarFill />
@@ -514,9 +516,11 @@ export default function ShipmentDetails() {
                             <h6 className="font-bold text-xl text-black text-center">
                               $ 3,982<span className="text-xs">.63</span>
                             </h6>
-                            <button className="btn btn-primary text-base mt-3 h-10 flex justify-center items-center p-0 px-7">
-                              Select
-                            </button>
+                            <Link href="/booking">
+                              <button className="btn btn-primary text-base mt-3 h-10 flex justify-center items-center p-0 px-7">
+                                Select
+                              </button>
+                            </Link>
                             <Link
                               href="#"
                               className="block text-[#363636] underline text-center mt-2"
@@ -559,7 +563,9 @@ export default function ShipmentDetails() {
                               </div>
                             </div>
                             <div className="flex items-center gap-3 mt-6">
-                              <p className="mb-0 text-sm text-[#808080]">Primetime Worldwide</p>
+                              <p className="mb-0 text-sm text-[#808080]">
+                                Primetime Worldwide
+                              </p>
                               <div className="flex items-center gap-1">
                                 <StarFill />
                                 <StarFill />
@@ -573,9 +579,11 @@ export default function ShipmentDetails() {
                             <h6 className="font-bold text-xl text-black text-center">
                               $ 3,982<span className="text-xs">.63</span>
                             </h6>
-                            <button className="btn btn-primary text-base mt-3 h-10 flex justify-center items-center p-0 px-7">
-                              Select
-                            </button>
+                            <Link href="/booking">
+                              <button className="btn btn-primary text-base mt-3 h-10 flex justify-center items-center p-0 px-7">
+                                Select
+                              </button>
+                            </Link>
                             <Link
                               href="#"
                               className="block text-[#363636] underline text-center mt-2"
@@ -618,7 +626,9 @@ export default function ShipmentDetails() {
                               </div>
                             </div>
                             <div className="flex items-center gap-3 mt-6">
-                              <p className="mb-0 text-sm text-[#808080]">Primetime Worldwide</p>
+                              <p className="mb-0 text-sm text-[#808080]">
+                                Primetime Worldwide
+                              </p>
                               <div className="flex items-center gap-1">
                                 <StarFill />
                                 <StarFill />
@@ -632,9 +642,11 @@ export default function ShipmentDetails() {
                             <h6 className="font-bold text-xl text-black text-center">
                               $ 3,982<span className="text-xs">.63</span>
                             </h6>
-                            <button className="btn btn-primary text-base mt-3 h-10 flex justify-center items-center p-0 px-7">
-                              Select
-                            </button>
+                            <Link href="/booking">
+                              <button className="btn btn-primary text-base mt-3 h-10 flex justify-center items-center p-0 px-7">
+                                Select
+                              </button>
+                            </Link>
                             <Link
                               href="#"
                               className="block text-[#363636] underline text-center mt-2"
