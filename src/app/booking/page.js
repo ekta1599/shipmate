@@ -13,7 +13,7 @@ export default function Booking() {
       <header className="pb-6 bg-white lg:pb-0 container">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
-            <Link href="#" title="" className="flex">
+            <Link href="/" title="" className="flex">
               <div className="font-bold text-2xl md:text-[42px] text-black leading-8">
                 Ship<span className="font-semibold text-primary">mate.</span>
               </div>
